@@ -1,0 +1,38 @@
+body {
+  *padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  border: 1px solid red;
+  width: 21cm;
+  height: 29.7cm;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@page{
+   margin: 5mm;
+}
+
+a {
+  color: #00B7FF;
+}
+.row .col {
+  padding:0;
+}
+svg{
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+@media print{
+  body {
+    *padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    border: 0px solid red;
+    width: 21cm;
+    height: 29.7cm;
+  }
+}
